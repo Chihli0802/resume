@@ -1,0 +1,162 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: rgb(135, 220, 135);
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+header .photo {
+  background-image: url(./pic/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 80px 80px 80px 80px;
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 44%;
+  border: none;
+}
+header .photo:active {
+  scale: 0.95;
+}
+header .text-area {
+  text-align: center;
+  color: white;
+}
+header .text-area p {
+  font-size: 20px;
+}
+
+.area1 {
+  padding: 5px 200px;
+}
+.area1 .profile {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+}
+.area1 .profile h2 {
+  margin-left: 50px;
+}
+.area1 .profile p {
+  font-size: 20px;
+  color: teal;
+  margin-left: 20px;
+  margin-bottom: 13px;
+}
+.area1 .info {
+  border-top: 2px solid black;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.area1 .info ul li {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.area2 {
+  padding: 5px 200px;
+  margin-bottom: 50px;
+}
+.area2 .edu {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+}
+.area2 .edu h2 {
+  margin-left: 50px;
+}
+.area2 .edu p {
+  font-size: 20px;
+  color: teal;
+  margin-left: 20px;
+  margin-bottom: 13px;
+}
+.area2 .info {
+  border-top: 2px solid black;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.area2 .info ul li {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.area3 {
+  padding: 10px 200px;
+  background-color: rgb(135, 220, 135);
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.area3 .skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.area3 .skill h2 {
+  color: white;
+}
+.area3 .skill p {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 13px;
+}
+.area3 .info {
+  border-top: 2px solid black;
+}
+.area3 .info p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.area4 {
+  padding: 5px 200px;
+  margin-bottom: 50px;
+}
+.area4 .work {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 10px;
+}
+.area4 .work h2 {
+  margin-left: 50px;
+}
+.area4 .work p {
+  font-size: 20px;
+  color: teal;
+  margin-left: 20px;
+  margin-bottom: 13px;
+}
+.area4 .info {
+  border-top: 2px solid black;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.area4 .info ul li {
+  font-size: 20px;
+}
+.area4 .info ul li p {
+  font-size: 15px;
+}
+.area4 .info2 {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+.area4 .info2 ul li {
+  font-size: 20px;
+}
+.area4 .info2 ul li p {
+  font-size: 15px;
+}/*# sourceMappingURL=style.css.map */
